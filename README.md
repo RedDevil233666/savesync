@@ -22,9 +22,16 @@
 
 ### Windows
 
-1. 安装 [Python 3.8+](https://www.python.org/downloads/)（安装时勾选 Add python.exe to PATH）
-2. 把 `build_windows.bat`、`savesync.py`、`savesync_gui.py` 放在同一文件夹，双击 bat
-3. 构建完成后得到 `dist\SaveSync.exe`，可复制到任意位置使用
+从 [Releases](https://github.com/RedDevil233666/savesync/releases) 下载
+`SaveSync-Windows.exe`，双击即用，不需要装 Python。
+
+首次运行若弹「Windows 已保护你的电脑」：点「更多信息」→「仍要运行」。
+（单文件 exe 没有代码签名，Python 打包的程序都会这样提示。）
+
+想自己构建的话：安装
+[Python 3.8+](https://www.python.org/downloads/)（安装时勾选 Add python.exe to PATH），
+把 `build_windows.bat`、`savesync.py`、`savesync_gui.py` 放在同一文件夹双击 bat，
+产物在 `dist\SaveSync.exe`。
 
 ## 界面
 
