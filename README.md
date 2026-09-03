@@ -15,7 +15,8 @@
 
 ### macOS
 
-下载 Release 里的 `存档同步-macOS.zip`，解压后把 `存档同步.app` 拖进「应用程序」即可。
+从 [Releases](https://github.com/RedDevil233666/savesync/releases) 下载
+`SaveSync-macOS.zip`，解压后把 `存档同步.app` 拖进「应用程序」即可。
 
 首次运行若提示「来自身份不明的开发者」：系统设置 → 隐私与安全性 → 仍要打开。
 
