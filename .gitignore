@@ -1,0 +1,21 @@
+# build & dist
+build/
+dist/
+*.spec
+*.app/
+*.exe
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# IDE / OS
+.DS_Store
+.idea/
+.vscode/
+
+# 本地配置（含云端账号密码，切勿提交）
+config.json
+state.json
